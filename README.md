@@ -1,7 +1,6 @@
 # terraform-aws-iam-settings
 
 This module can be used for setting the IAM password policy for the account and setting the account alias for sign in.
-
 The account alias is optional and will only be set when a value is provided.
 
 ## Example Usage
