@@ -1,5 +1,5 @@
 
-resource "aws_iam_account_password_policy" "password_policy" {  
+resource "aws_iam_account_password_policy" "password_policy" {
   allow_users_to_change_password = var.allow_users_to_change_password
   hard_expiry                    = var.hard_expiry
   max_password_age               = var.max_password_age

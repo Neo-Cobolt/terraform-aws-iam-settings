@@ -54,7 +54,7 @@ variable "require_uppercase_characters" {
 }
 
 variable "account_alias" {
-  type = string
-  default = ""
+  type        = string
+  default     = ""
   description = "Manages the account alias for the AWS Account. There is only a single account alias per AWS account."
 }
