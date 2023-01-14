@@ -6,7 +6,7 @@ variable "allow_users_to_change_password" {
 }
 
 variable "hard_expiry" {
-  type        = string
+  type        = bool
   default     = false
   description = "Whether users are prevented from setting a new password after their password"
 }
